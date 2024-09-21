@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 my name is lola and this is my first repository :)
 
 <!--
 **lolabenavides/lolabenavides** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
