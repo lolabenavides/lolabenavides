@@ -1,0 +1,190 @@
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+/* "*" means everything, and the guy put it at the beginning of the css */
+
+
+h2{
+	color: greenyellow;
+}
+body{
+background-color: #f4f4f4;
+ color: darkred;
+
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ font-weight: normal;
+ /*Same as above */
+ font:normal 16px Arial, Helvetica, sans-serif;
+ line-height: 1.6em;
+ margin:0;
+}
+/*
+p{
+	color: rgb(0,0,0);
+}*/
+/* To targe a class, we use a "." */
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: red;
+}
+
+a:active{
+	color:white;
+}
+
+/* Color if visited
+a:visited{
+	color: black;
+}
+*/
+
+.container{
+	/*width: 960px;*/
+	width: 80%;
+	margin: auto;
+}
+
+/*This is for all the buttons*/
+ .button{
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+}
+
+.button:hover{
+	background-color: lightpink;
+	color: violet;
+}
+
+/* Button visited
+.button:visited{
+	background-color: lightgray;
+	color: #fff;
+}
+*/
+
+.clr{
+	clear:both;
+}
+
+.box-1{
+	background-color: #333333;
+	/* with 333 or fff you can use shortcuts, and just 
+	write three of the characters*/
+	color: #fff;
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+
+	
+	border-width: 3px;
+	border-bottom-width: 10px;
+	border-top-style: dotted;
+
+/*Should override all above thungs*/
+	border: 5px red solid;
+	padding-top: 20px;
+	padding: 20px;
+	/*Lo siguiente hace margen de 20 px arriba y abajo pero 
+	de 0 a la izq y derecha*/
+	margin: 20px 0;
+}
+
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1 em;
+}
+
+.box-2{
+	border:3px dotted lightgray;
+	padding: 20px;
+	margin: 20px;
+}
+
+.categories{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding: 0;
+	padding-left: 20px;
+	list-style: square;
+	list-style: none;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+	list-style-image: url('../CSS/images/check.png');
+}
+
+.my-form{
+	padding:20px;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"]{
+	padding: 8px;
+	width: 100%;
+}
+
+/* This is to change the style of the buttons on the form "my-form"
+.my-form input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+
+}
+*/
+
+.block{
+	float:left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	/*The next thing, fits the padding and the border into the 33,3%*/
+	box-sizing: border-box;
+}
+
+#main-block{
+	float: left;
+	width: 70%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+
+}
